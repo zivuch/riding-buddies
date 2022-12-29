@@ -1,0 +1,42 @@
+{
+  "name": "riding-buddies-app",
+  "version": "1.0.0",
+  "description": "Riding app for motorcyclists",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaurenWaknin/Riding-App.git"
+  },
+  "author": "Lauren Waknin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaurenWaknin/Riding-App/issues"
+  },
+  "homepage": "https://github.com/LaurenWaknin/Riding-App#readme",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.0",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "db": "^3.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.27.0",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

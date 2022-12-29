@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/riding-buddies/node_modules
+/riding-buddies/.pnp
+/riding-buddies/.pnp.js
+
+# testing
+/riding-buddies/coverage
+
+# production
+/riding-buddies/build
+
+# misc
+/riding-buddies/.DS_Store
+/riding-buddies/.env.local
+/riding-buddies/.env.development.local
+/riding-buddies/.env.test.local
+/riding-buddies/.env.production.local
+
+/riding-buddies/npm-debug.log*
+/riding-buddies/yarn-debug.log*
+/riding-buddies/yarn-error.log*
+/riding-buddies/package-lock.json
+
+
+/node_modules
+.env
+package-lock.json

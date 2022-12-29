@@ -1,0 +1,30 @@
+
+body {
+    background-image: url('../../public/images/backgroundImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Juventus Fans Bold";
+    src: url("//db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.eot");
+}
+
+h1 {
+    font-family: 'Juventus Fans Bold';
+    font-size: 60px;
+    color: orange;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Juventus Fans Bold';
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+}
+
+

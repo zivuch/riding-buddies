@@ -1,0 +1,13 @@
+.leaflet-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.MapMarker {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0px
+}
