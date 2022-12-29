@@ -3,7 +3,6 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import jwt_decode from "jwt-decode";
 import db from "../config/elephantSQL.js";
-import { LocalActivityOutlined } from "@mui/icons-material";
 
 export const getUsers = async (req, res) => {
   try {
