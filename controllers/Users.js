@@ -2,7 +2,7 @@ import Users from "../models/UsersModel.js";
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken'
 import jwt_decode from 'jwt-decode'
-import db from '../config/elephantSql.js';
+import db from '../config/elephantSQL.js';
 
 
 export const getUsers = async (req, res)=>{
